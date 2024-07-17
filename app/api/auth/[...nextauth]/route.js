@@ -10,6 +10,7 @@ const authOptions = {
         }),
         // add more providers...
     ],
+    secret: process.env.NEXT_PUBLIC_SECRET
 };
 
 const handler = NextAuth(authOptions);
