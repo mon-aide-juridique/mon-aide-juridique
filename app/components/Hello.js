@@ -20,8 +20,15 @@ export default function Hello() {
 
     return (
         <div>
-            <p>Not Signed In</p>
-            <button onClick={() => signIn('google')}>Sign in with google</button>
+            <p>
+                Not Signed In
+            </p>
+            <p>
+                <button onClick={() => signIn('google')}>Sign in with Google</button>
+            </p>
+            <p>
+                <button onClick={() => signIn('github')}>Sign in with GitHub</button>
+            </p>
         </div>
     );
 };
