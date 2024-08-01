@@ -21,7 +21,7 @@ export default function MainHeader() {
                         </li>
                         <li>
                             <NavLink href="/cu">
-                                Conditions d'utilisation
+                                Conditions d&apos;utilisation
                             </NavLink>
                         </li>
                     </ul>

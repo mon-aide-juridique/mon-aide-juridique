@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function CU() {
     return (
         <div className={classes.maindiv}>
-            Conditions d'Utilisation
+            Conditions d&apos;Utilisation
             <ul>
                 <li>
                     <Link href='/cu/politique-confidentialite'>
@@ -13,7 +13,7 @@ export default function CU() {
                 </li>
                 <li>
                     <Link href='/cu/conditions-service'>
-                        Conditions d'utilisation de mon-aide-juridique.fr
+                        Conditions d&apos;utilisation de mon-aide-juridique.fr
                     </Link>
                 </li>
             </ul>
