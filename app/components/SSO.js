@@ -1,8 +1,9 @@
 "use client";
 
+import classes from './SSO.module.css';
 import { useSession, signIn, signOut } from "next-auth/react";
 
-export default function Hello() {
+export default function SSO() {
 
     const { data: session } = useSession()
 
@@ -10,7 +11,7 @@ export default function Hello() {
     if (session) {
         //logged in code
         return (
-            <div>
+            <div className={classes.maindivok}>
                 <p>Welcome {session.user?.name}. Signed In As</p>
                 <p>{session.user?.email}</p>
                 <button onClick={() => signOut()}>Sign out</button>
@@ -19,7 +20,7 @@ export default function Hello() {
     }
 
     return (
-        <div>
+        <div className={classes.maindivko}>
             <p>
                 Not Signed In
             </p>

@@ -1,5 +1,7 @@
-import Hello from "./components/Hello";
+import SSO from './components/SSO';
 
 export default function Home() {
-  return <Hello />;
+  return <>
+    <SSO />
+  </>;
 }

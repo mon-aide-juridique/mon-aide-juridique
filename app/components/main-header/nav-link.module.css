@@ -1,0 +1,11 @@
+.active {
+    text-decoration: underline;
+}
+
+.inactive {
+    text-decoration: none;
+}
+
+.inactive:hover {
+    text-decoration: underline;
+}
