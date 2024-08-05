@@ -11,7 +11,7 @@ export default function SSO() {
     if (session) {
         //logged in code
         return (
-            <div className={classes.maindivok}>
+            <div>
                 <p>Welcome {session.user?.name}. Signed In As</p>
                 <p>{session.user?.email}</p>
                 <button onClick={() => signOut()}>Sign out</button>
@@ -20,7 +20,7 @@ export default function SSO() {
     }
 
     return (
-        <div className={classes.maindivko}>
+        <div>
             <p>
                 Not Signed In
             </p>

@@ -1,3 +1,17 @@
+
+# mon-aide-juridique.fr
+
+## build
+
+```
+cd /var/www/mon-aide-juridique
+pm2 stop mon-aide-juridique
+npm run build
+pm2 start mon-aide-juridique
+```
+
+# Next.JS documentation
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

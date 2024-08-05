@@ -1,18 +1,17 @@
 import Link from "next/link";
 import Image from 'next/image';
 import logoImage from '@/public/balances/balance_128_128.png';
-import classes from './main-header.module.css';
 import NavLink from "./nav-link";
 
 export default function MainHeader() {
 
     return (
         <>
-            <header className={classes.header}>
-                <Link className={classes.logo} href="/">
+            <header>
+                <Link href="/">
                     <Image src={logoImage} alt="Justice" priority />
                 </Link>
-                <nav className={classes.nav}>
+                <nav>
                     <ul>
                         <li>
                             <NavLink href="/blog">

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Blog() {
     return (
-        <div className={classes.maindiv}>
+        <div>
             Blog
             <ul>
                 <li><Link href='/blog/hello-world'>Hello world</Link></li>

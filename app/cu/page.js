@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CU() {
     return (
-        <div className={classes.maindiv}>
+        <div>
             Conditions d&apos;Utilisation
             <ul>
                 <li>
