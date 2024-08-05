@@ -30,6 +30,9 @@ export default function SSO() {
             <p>
                 <button onClick={() => signIn('github')}>Sign in with GitHub</button>
             </p>
+            <p>
+                <button onClick={() => signIn('atlassian')}>Sign in with Atlassian</button>
+            </p>
         </div>
     );
 };
